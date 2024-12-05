@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .signup-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .signup-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } 
+  
+  .terms {
+    display: flex;
+    align-items: left;
+    justify-content: left; /* 중앙 정렬 */
+    gap: 15px;
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .terms label {
+    display: block; /* 텍스트를 한 줄로 표시 */
+    margin-bottom: 10px; /* 텍스트와 체크박스 간격 */
+  }
+  
+  
+  .signup-button {
+    width: 95%;
+    padding: 10px;
+    background: #8c8c8c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-button:hover {
+    background: #787878;
+  }
